@@ -11,6 +11,6 @@ source ~/westpa-workshop2024/bin/activate
 cd $TMPDIR
 git clone https://github.com/westpa/westpa-workshop2024-tutorials
 cd westpa-workshop2024-tutorials/ntl9_sample_files
-python -m pip install -U -r requirements.txt
+python -m pip install -U -r requirement.txt
 cd ../
 echo "Current working directory is $PWD"
