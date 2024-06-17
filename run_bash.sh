@@ -7,7 +7,7 @@ ln -s $TMPDIR
 python -m venv westpa-workshop2024
 source ~/westpa-workshop2024/bin/activate
 ipython kernel install --user --name=westpa-workshop2024
-jupyter kernelspec install ~/westpa-workshop2024
+jupyter kernelspec install --user westpa-workshop2024
 
 # Clone WESTPA workshop github repo and install everything into virtualenv
 cd $TMPDIR
