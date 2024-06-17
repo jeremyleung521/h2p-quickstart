@@ -5,7 +5,6 @@ ln -s $TMPDIR
 
 # Create and activate virtualenv
 python -m venv westpa-workshop2024
-ipython kernel install --user --name=westpa-workshop2024 --prefix=/ihome/crc/install/jupyterhub/hub4.0.2/bin/jupyter
 source ~/westpa-workshop2024/bin/activate
 ipython kernel install --user --name=westpa-workshop2024
 
