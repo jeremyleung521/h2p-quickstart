@@ -6,7 +6,7 @@ ln -s $TMPDIR
 # Create and activate virtualenv
 python -m venv westpa-workshop2024 --system-site-packages
 source ~/westpa-workshop2024/bin/activate
-ipykernel install --user --name=westpa-workshop2024
+python -m ipykernel install --user --name=westpa-workshop2024
 
 # Clone WESTPA workshop github repo and install everything into virtualenv
 cd $TMPDIR
